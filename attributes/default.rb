@@ -19,6 +19,7 @@
 #
 
 default['python']['install_method'] = 'package'
+default['python']['skip_install'] = 'false'
 
 if python['install_method'] == 'package'
   case platform
